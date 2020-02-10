@@ -106,16 +106,16 @@
 </div>  <div class="wrap" role="document">
               <div class="featured-image">
   <picture>
-    <source srcset="https://wewritecode.com/app/uploads/2019/07/wwc-21-1440x575.jpg" media="(min-width: 1200px)">
-    <source srcset="https://wewritecode.com/app/uploads/2019/07/wwc-21-1200x450.jpg" media="(min-width: 996px)">
-    <source srcset="https://wewritecode.com/app/uploads/2019/07/wwc-21-992x400.jpg" media="(min-width: 758px)">
-    <source srcset="https://wewritecode.com/app/uploads/2019/07/wwc-21-768x375.jpg" media="(min-width: 480px)">
-    <source srcset="https://wewritecode.com/app/uploads/2019/07/wwc-21-480x320.jpg" media="(min-width: 0px)">
-    <img srcset="https://wewritecode.com/app/uploads/2019/07/wwc-21-480x320.jpg" draggable="false">
+    <source srcset="./image/jpg/KFR144.jpg" media="(min-width: 1200px)">
+    <source srcset="./image/jpg/KFR144.jpg" media="(min-width: 996px)">
+    <source srcset="./image/jpg/KFR144.jpg" media="(min-width: 758px)">
+    <source srcset="./image/jpg/KFR144.jpg" media="(min-width: 480px)">
+    <source srcset="./image/jpg/KFR144.jpg" media="(min-width: 0px)">
+    <img srcset="./image/jpg/KFR144.jpg" draggable="false">
   </picture>
   <div class="featured-image__overlay">
     <div class="container">
-      <h1 class="emphasize">Contact</h1>
+      <h1 class="emphasize">Contacto</h1>
     </div>
   </div>
 </div>            <div class="content">
@@ -125,76 +125,60 @@
     <div class="col-12">
       <form id="contact" class="container">
         <div class="row">
-          <h6 class="black contact__hover">Go on, don't be shy <span>(☞ﾟヮﾟ)☞</span></h6>
+          <h6 class="black contact__hover">Vamos, no seas tímido <span>(☞ﾟヮﾟ)☞</span></h6>
         </div>
         <div class="row mb-3">
-          Hello, my name is <input type="text" name="firstname" id="firstname" placeholder="first" class="short"> <input type="text" name="lastname" id="lastname" placeholder="last" class="short">
+          Hola, mi nombre es <input type="text" name="nombre" id="firstname" placeholder="nombre" class="short"> <input type="text" name="apellidos" id="lastname" placeholder="apellidos" class="short">
         </div>
         <div class="row mb-3">
-          and I'm with <input type="text" name="company" id="company" placeholder="company">.
-        </div>
-        <div class="row mb-3">
-          I'm looking for assistance with
+          Principalmente estoy buscando
           <div class="select__custom" style="z-index: 3;">
             <select id="service">
-              <option value="null">select a service...</option>
-              <option value="Building a new platform">building a new application</option>
-              <option value="Enhancing an existing platform">enhancing an existing application</option>
-              <option value="Staff augmentation">staff augmentation</option>
-              <option value="Cloud infrastructure">cloud infrastructure</option>
-              <option value="Technical platform review">technical/platform review</option>
+              <option value="null">selecciona un servicio...</option>
+              <option value="Building a new platform">diseño y preimpresión</option>
+              <option value="Enhancing an existing platform">edición de un libro o maquetación</option>
+              <option value="Staff augmentation">Tesis y TFG</option>
+              <option value="Cloud infrastructure">Imprimir</option>
+              <option value="Technical platform review">No sé muy bien como explicarlo</option>
             </select>
           </div>
         </div>
         <div class="row mb-3">
-          with a timeline of
+          lo necesitaría en
           <div class="select__custom" style="z-index: 2;">
             <select id="duration">
-                <option value="null">select a timeline...</option>
-                <option value="1-3 months">1–3 months</option>
-                <option value="3-5 months">3–6 months</option>
-                <option value="6-12 months">6–12 months</option>
-                <option value="Ongoing partnership">an ongoing partnership</option>
-                <option value="Duration hasn't been set yet">undefined</option>
+                <option value="null">selecciona un periodo de tiempo...</option>
+                <option value="1-3 months">1–3 días</option>
+                <option value="3-5 months">1 semana</option>
+                <option value="6-12 months">1–2 semanas</option>
+                <option value="Ongoing partnership">3-4 semanas</option>
+                <option value="Duration hasn't been set yet">indefinido</option>
             </select>
           </div>.
         </div>
         <div class="row mb-3">
-          I'm working with a budget of
-          <div class="select__custom">
-            <select id="budget">
-                <option value="null">select a budget...</option>
-                <option value="$50-$100k">$50-$100k</option>
-                <option value="$100-$200k">$100-$200k</option>
-                <option value="$200-$500k">$200-$500k</option>
-                <option value="$500k+">$500k+</option>
-                <option value="Budget hasn't been set yet">undefined</option>
-            </select>
-          </div>.
+          <textarea rows="1" id="details" placeholder="Escribe lo que estás pensando..."></textarea>
         </div>
         <div class="row mb-3">
-          <textarea rows="1" id="details" placeholder="Here's what I'm thinking..."></textarea>
-        </div>
-        <div class="row mb-3">
-          You can reach me at <input type="text" name="email" id="email" placeholder="email address" class="long">
+          Podéis contestarme <input type="text" name="email" id="email" placeholder="dirección de email" class="long">
         </div>
         <div class="row">
-          to get the ball rolling.
+          y ayudarme a realizar mi proyecto.
         </div>
         <div class="row my-5">
-          Thanks!
+          Gracias!
         </div>
         <div class="row">
           
           <input id="tacopot" name="tacopot" type="text" value="">
-          <input type="submit" class="btn btn-primary" id="submit" value="Reach Out">
+          <input type="submit" class="btn btn-primary" id="submit" value="Enviar">
         </div>
       </form>
     </div>
     <div class="col-12" id="thanks">
       <img src="https://wewritecode.com/app/themes/wewritecode/dist/images/corgiemail_711d101a.svg">
-      <h2>Thanks for reaching out 🎉</h2>
-      <p>A tiny pack of dogs is running your message to us now. They are the goodest bois and gurls.</p>
+      <h2>Gracias por escribirnos 🎉</h2>
+      <p>Te contestaremos lo antes posible.</p>
     </div>
   </div>
           </div>
@@ -204,20 +188,20 @@
       <div class="row m-0">
         <div class="col-12 col-md-6 pl-0 text-left d-flex align-items-center">
           <div>
-            <h2 class="contact__subhead">Stop by and say hi</h2>
+            <h2 class="contact__subhead">Para y di hola</h2>
             <div class="emphasize">
-              <p><strong>We love making friends</strong> as much as <br>
-              we love making awesome stuff.</p>
+              <p><strong>Nos encantaría conocerte</strong> mucho más <br>
+              y dejar que tú nos conozcas también.</p>
             </div>
             <p class="mt-5">
-              Not available to swing by? That's okay, we'd still love to hear from you.
+              ¿No te gustan escribir por correo? Esta bien, estaremos encantados de escucharte.
             </p>
             <div class="contact__options">
-              <a href="tel:515-313-6767" target="_blank">
-                <i class="fa fa-phone-alt"></i> (515) 313-6767
+              <a href="tel:983-302-564" target="_blank">
+                <i class="fa fa-phone-alt"></i> 983 302 564
               </a>
-              <a href="mailto:hello@wewritecode.com" target="_blank">
-                <i class="fa fa-envelope"></i> hello@wewritecode.com
+              <a href="mailto:infocargraf@gmail.com" target="_blank">
+                <i class="fa fa-envelope"></i> infocargraf@gmail.com
               </a>
             </div>
           </div>
@@ -225,27 +209,27 @@
         <div class="col-12 col-md-6 p-0 mb-4 mb-md-0 d-flex flex-row-reverse flex-md-column justify-content-end align-items-center align-items-md-end">
           <img src="https://wewritecode.com/app/themes/wewritecode/dist/images/teachout_36c51b87.svg" class="teachout mb-4" alt="An illustration of the Teachout building.">
           <p class="teachout__copy">
-            <strong>Teachout Building</strong><br>
-            500 E Locust St, Suite 300<br>
-            Des Moines, IA 50309
+            <strong>Barrio las Flores</strong><br>
+            calle Azalea, 24 - Nave 3<br>
+            47012 Valladolid
           </p>
         </div>
       </div>
     </div>
   </div>
-                <footer class="footer__main">
-  <div class="container footer-container">
-    <a href="https://goo.gl/maps/xaZTpy4Pmwatq2516" target="_blank">
-      500 E Locust St, Suite 300 • Des Moines, IA 50309
-    </a>
-    <a href="tel:515-313-6767" target="_blank">
-      (515) 313-6767
-    </a>
-    <a href="mailto:hello@wewritecode.com" target="_blank">
-      hello@wewritecode.com
-    </a>
-  </div>
-</footer>
+  <footer class="footer__main">
+    <div class="container footer-container">
+      <a href="https://goo.gl/maps/z44f6kxrR9S8kEeG7" target="_blank">
+        Calle Azalea, 24 - Nave 3, 47012 Valladolid
+      </a>
+      <a href="tel:515-313-6767" target="_blank">
+        983 302 564
+      </a>
+      <a href="mailto:hello@wewritecode.com" target="_blank">
+        infocargraf@gmail.com
+      </a>
+    </div>
+  </footer>
       </div>
     </div>
     <div class="before"></div>
